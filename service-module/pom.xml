@@ -38,15 +38,12 @@
       <version>3.0.1</version>
     </dependency>
 
-  </dependencies>
+    <dependency>
+      <groupId>com.curtisnewbie</groupId>
+      <artifactId>common-module</artifactId>
+      <version>1.0.0</version>
+    </dependency>
 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
+  </dependencies>
 
 </project>
