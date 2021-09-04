@@ -1,6 +1,6 @@
 # service-module
 
-A module for a standalone service (for internal use)
+Pom file with dependencies needed to be a microservice, e.g., dependencies for Dubbo and Nacos.
 
 ## Dependencies
 
