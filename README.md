@@ -4,12 +4,11 @@ Pom file with dependencies needed to be a microservice, e.g., dependencies for D
 
 ## Dependencies
 
-A manual install using maven is needed for following github repositories, clone it and install it:
+A manual install using maven is needed for following github repositories, clone it and install it using `mvn install`.
 
-1. common-module
+- curtisnewbie-bom
+    - description: BOM file for dependency management
+    - url: https://github.com/CurtisNewbie/curtisnewbie-bom
+    - branch: main
+    - version: micro-0.0.1 (under `/microservice` folder)
 
-```
-URL: https://github.com/CurtisNewbie/common-module/tree/dev
-Branch: dev
-Command: mvn clean install
-```
